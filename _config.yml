@@ -1,0 +1,7 @@
+title: Blog
+description: > #
+twitter_username: Goodie01
+github_username:  Goodie01
+permalink: /:categories/:year/:month/:day/:title/
+exclude:
+  - README.md

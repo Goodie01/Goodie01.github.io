@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<body>
+<div class="min-h-screen bg-gray-200 px-4 pt-16 pb-20 sm:px-6 lg:px-8 lg:pt-24 lg:pb-28">
+    <div class="relative mx-auto max-w-7xl">
+        <div class="text-center">
+            <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Thomas "Goodie" Goodwin</h2>
+        </div>
+        <div class="mx-auto mt-2 max-w-lg gap-5 lg:max-w-none rounded-lg shadow-2xl bg-white p-3">
+            <h1 class="text-xl">{{ page.title }}</h1>
+            <span class="text-sm text-gray-500">{{ page.date | date: "%b %-d, %Y" }}</span>
+        </div>
+        <main class="markdown-body mx-auto mt-6 max-w-lg gap-5 lg:max-w-none rounded-lg shadow-2xl bg-white p-6">
+            {{ content }}
+        </main>
+    </div>
+</div>
+
+{% include footer.html %}
+{% include analytics.html %}
+</body>
+</html>
