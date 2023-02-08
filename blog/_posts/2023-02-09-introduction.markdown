@@ -23,7 +23,7 @@ Replacing "highly cohesive" with "tightly coupled" and "low cohesion" with "loos
 
 > The classes within the authentication module should be tightly coupled
 >
-> The authentication module and the book checkout module should have loosly or not at all coupled
+> The authentication module and the book checkout module should be loosly or not at all coupled
 
 This is typically broken down to the number of ways a given "system" talks to other "systems".
 
